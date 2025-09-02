@@ -44,7 +44,7 @@ To disable docking over a specific pane, set its `Dockable` parameter to `false`
                     </Content>
                 </DockManagerContentPane>
 
-                <DockManagerContentPane HeaderText="Pane 2" Dockable="Pane2Dockable">
+                <DockManagerContentPane HeaderText="Pane 2" Dockable="@Pane2Dockable">
                     <Content>
                         <TelerikToggleButton @bind-Selected="@Pane2Dockable">Enable Docking Over Pane 2</TelerikToggleButton>
                     </Content>
